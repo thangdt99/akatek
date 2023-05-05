@@ -92,33 +92,29 @@ const App: React.FunctionComponent<{}> = (props) => {
     <div className="App">
       <header className="App-header"></header>
       <div className={`container ${checkOut === 3 ? "thank" : ""}`}>
-        {checkOut === 3 ? (
-          <Thanks onCheckOut={(a) => setCheckOut(a)} display={checkOut === 3} />
-        ) : checkOut === 2 ? (
-          <CheckOut
-            data={data}
-            subtotal={subtotal}
-            discount={discount}
-            grandTotal={grandTotal}
-            onCheckOut={(a) => setCheckOut(a)}
-            display={checkOut === 2}
-          />
-        ) : (
-          <ShoppingCart
-            data={data}
-            subtotal={subtotal}
-            discount={discount}
-            grandTotal={grandTotal}
-            onCheckOut={(a) => setCheckOut(a)}
-            display={checkOut === 1}
-            onRemove={(data) => {
-              setData(data);
-              const subtotal = subtotalCalculate(data);
-              setSuntotal(subtotal);
-              setGrandTotal(subtotal - discount > 0 ? subtotal - discount : 0);
-            }}
-          />
-        )}
+        <Thanks onCheckOut={(a) => setCheckOut(a)} display={checkOut === 3} />
+        <CheckOut
+          data={data}
+          subtotal={subtotal}
+          discount={discount}
+          grandTotal={grandTotal}
+          onCheckOut={(a) => setCheckOut(a)}
+          display={checkOut === 2}
+        />
+        <ShoppingCart
+          data={data}
+          subtotal={subtotal}
+          discount={discount}
+          grandTotal={grandTotal}
+          onCheckOut={(a) => setCheckOut(a)}
+          display={checkOut === 1}
+          onRemove={(data) => {
+            setData(data);
+            const subtotal = subtotalCalculate(data);
+            setSuntotal(subtotal);
+            setGrandTotal(subtotal - discount > 0 ? subtotal - discount : 0);
+          }}
+        />
       </div>
       <div className={`footer ${checkOut === 3 ? "thank" : ""}`}></div>
     </div>

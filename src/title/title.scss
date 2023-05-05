@@ -63,7 +63,8 @@ body {
 
 .ant-input {
     background-color: #F2F2F2 !important;
-    border-radius: 5px;
+    border-radius: 5px !important;
+    font-size: 18px !important;
 }
 
 .title-checkout {
@@ -95,7 +96,7 @@ body {
 }
 
 .hide {
-    display: none;
+    display: none !important;
     animation: fade-out 1s forwards;
 }
 

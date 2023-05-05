@@ -48,6 +48,7 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                     <Input
                       placeholder="Input your first name..."
                       bordered={false}
+                      style={{ height: 43 }}
                     />
                   </Form.Item>
                 </Col>
@@ -65,6 +66,7 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                     <Input
                       placeholder="Input your last name..."
                       bordered={false}
+                      style={{ height: 43 }}
                     />
                   </Form.Item>
                 </Col>
@@ -100,7 +102,11 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                       },
                     ]}
                   >
-                    <Input placeholder="Input your email..." bordered={false} />
+                    <Input
+                      placeholder="Input your email..."
+                      bordered={false}
+                      style={{ height: 43 }}
+                    />
                   </Form.Item>
                 </Col>
                 <Col span={12}>
@@ -118,6 +124,7 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                       type="number"
                       placeholder="Input your phone..."
                       bordered={false}
+                      style={{ height: 43 }}
                     />
                   </Form.Item>
                 </Col>
@@ -142,6 +149,7 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                     <Input
                       placeholder="Input your address..."
                       bordered={false}
+                      style={{ height: 43 }}
                     />
                   </Form.Item>
                 </Col>
@@ -168,6 +176,7 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                       type="number"
                       placeholder="XXXX XXXX XXXX XXXX"
                       bordered={false}
+                      style={{ height: 43 }}
                     />
                   </Form.Item>
                 </Col>
@@ -182,7 +191,11 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                       },
                     ]}
                   >
-                    <Input placeholder="e.g. DAVID NGUYEN" bordered={false} />
+                    <Input
+                      placeholder="e.g. DAVID NGUYEN"
+                      bordered={false}
+                      style={{ height: 43 }}
+                    />
                   </Form.Item>
                 </Col>
               </Row>
@@ -201,6 +214,7 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                     <DatePicker
                       style={{
                         width: "100%",
+                        height: 43,
                       }}
                       placeholder="Input expire date"
                       bordered={false}
@@ -218,7 +232,11 @@ const CheckOut: React.FunctionComponent<CheckOutProps> = (props) => {
                       },
                     ]}
                   >
-                    <Input placeholder="CCV" bordered={false} />
+                    <Input
+                      placeholder="CCV"
+                      bordered={false}
+                      style={{ height: 43 }}
+                    />
                   </Form.Item>
                 </Col>
               </Row>

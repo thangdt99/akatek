@@ -255,7 +255,7 @@ const ShoppingCart: React.FunctionComponent<ShoppingCartProps> = (props) => {
                   <Input
                     placeholder="Promotion code"
                     bordered={false}
-                    style={{ width: "calc(100% - 458px)" }}
+                    style={{ width: "calc(100% - 458px)", height: 44 }}
                   />
                   <Button
                     type="primary"
