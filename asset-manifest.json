@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/akatek/test/static/css/main.d8797931.css",
-    "main.js": "/akatek/test/static/js/main.a59558bb.js",
-    "static/js/787.eade4ad7.chunk.js": "/akatek/test/static/js/787.eade4ad7.chunk.js",
-    "static/media/ShoppingCart.png": "/akatek/test/static/media/ShoppingCart.b4877b7a989979e225ef.png",
-    "index.html": "/akatek/test/index.html",
-    "main.d8797931.css.map": "/akatek/test/static/css/main.d8797931.css.map",
-    "main.a59558bb.js.map": "/akatek/test/static/js/main.a59558bb.js.map",
-    "787.eade4ad7.chunk.js.map": "/akatek/test/static/js/787.eade4ad7.chunk.js.map"
+    "main.css": "/akatekTest/static/css/main.b76f75f3.css",
+    "main.js": "/akatekTest/static/js/main.59a42ef9.js",
+    "static/js/787.eade4ad7.chunk.js": "/akatekTest/static/js/787.eade4ad7.chunk.js",
+    "static/media/ShoppingCart.png": "/akatekTest/static/media/ShoppingCart.b4877b7a989979e225ef.png",
+    "index.html": "/akatekTest/index.html",
+    "main.b76f75f3.css.map": "/akatekTest/static/css/main.b76f75f3.css.map",
+    "main.59a42ef9.js.map": "/akatekTest/static/js/main.59a42ef9.js.map",
+    "787.eade4ad7.chunk.js.map": "/akatekTest/static/js/787.eade4ad7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8797931.css",
-    "static/js/main.a59558bb.js"
+    "static/css/main.b76f75f3.css",
+    "static/js/main.59a42ef9.js"
   ]
 }
