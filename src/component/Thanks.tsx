@@ -18,7 +18,7 @@ const Thanks: React.FunctionComponent<ThanksProps> = (props) => {
       <div style={{ display: "inline-block", marginTop: 134 }}>
         <img
           style={{ width: "441px", height: "322px" }}
-          src={"/Frame.png"}
+          src={process.env.PUBLIC_URL + "/Frame.png"}
         ></img>
       </div>
       <div
