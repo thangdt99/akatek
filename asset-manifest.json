@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/akatek/static/css/main.e5eb1b90.css",
-    "main.js": "/akatek/static/js/main.d704d92e.js",
+    "main.js": "/akatek/static/js/main.2c2bd7eb.js",
     "static/js/787.eade4ad7.chunk.js": "/akatek/static/js/787.eade4ad7.chunk.js",
     "static/media/ShoppingCart.png": "/akatek/static/media/ShoppingCart.b4877b7a989979e225ef.png",
     "index.html": "/akatek/index.html",
     "main.e5eb1b90.css.map": "/akatek/static/css/main.e5eb1b90.css.map",
-    "main.d704d92e.js.map": "/akatek/static/js/main.d704d92e.js.map",
+    "main.2c2bd7eb.js.map": "/akatek/static/js/main.2c2bd7eb.js.map",
     "787.eade4ad7.chunk.js.map": "/akatek/static/js/787.eade4ad7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5eb1b90.css",
-    "static/js/main.d704d92e.js"
+    "static/js/main.2c2bd7eb.js"
   ]
 }
